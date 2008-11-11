@@ -1,0 +1,90 @@
+package com.uvasoftware.core.data.code;
+
+/**
+ * Represents the list of <code>[0436] Teaching Assignment</code> codes defined in the SIF spec
+ * 
+ * @author Uva Software - http://uvasoftware.com
+ */
+public class TeachingAssignment0436 {
+	public static final String EARLY_CHILDHOOD = "1296";
+	public static final String KINDERGARTEN = "0805";
+	public static final String ELEMENTARY = "1304";
+	public static final String ACCOUNTING = "1305";
+	public static final String BUSINESS_AND_MANAGEMENT = "1306";
+	public static final String OTHER_BUSINESS = "1307";
+	public static final String ENGLISH_OR_LANGUAGE_ARTS = "1308";
+	public static final String JOURNALISM_COMMUNICATIONS = "1309";
+	public static final String READING = "0560";
+	public static final String SPEECH = "1310";
+	public static final String ARCHITECTURE_OR_ENVIRONMENTAL_DESIGN = "1311";
+	public static final String DANCE = "0684";
+	public static final String DRAMA_THEATER = "1312";
+	public static final String MUSIC = "1313";
+	public static final String VISUAL_ARTS = "1314";
+	public static final String CHINESE = "1315";
+	public static final String FRENCH = "1316";
+	public static final String GERMAN = "1317";
+	public static final String ITALIAN = "1318";
+	public static final String JAPANESE = "1319";
+	public static final String LATIN = "1320";
+	public static final String RUSSIAN = "1321";
+	public static final String SPANISH = "1322";
+	public static final String OTHER_LANGUAGES = "1323";
+	public static final String COMPUTER_SCIENCE = "1324";
+	public static final String MATHEMATICS = "1166";
+	public static final String BIOLOGY_OR_LIFE_SCIENCE = "1325";
+	public static final String CHEMISTRY = "1326";
+	public static final String EARTH_SPACE_SCIENCE_GEOLOGY = "1327";
+	public static final String GENERAL_SCIENCE = "1328";
+	public static final String HEALTH_EDUCATION = "1329";
+	public static final String PHYSICAL_SCIENCE = "1330";
+	public static final String PHYSICS = "1331";
+	public static final String OTHER_NATURAL_SCIENCES = "1332";
+	public static final String AMERICAN_INDIAN_NATIVE_AMERICAN_STUDIES = "1333";
+	public static final String ANTHROPOLOGY = "1334";
+	public static final String CIVICS = "1335";
+	public static final String ECONOMICS = "1336";
+	public static final String GEOGRAPHY = "0547";
+	public static final String HISTORY = "0550";
+	public static final String HUMANITIES = "1337";
+	public static final String LAW = "1338";
+	public static final String PHILOSOPHY = "1339";
+	public static final String POLITICAL_SCIENCE_AND_GOVERNMENT = "1340";
+	public static final String PSYCHOLOGY = "1181";
+	public static final String RELIGION = "1342";
+	public static final String SOCIAL_STUDIES = "0563";
+	public static final String SOCIOLOGY = "1343";
+	public static final String OTHER_AREA_OR_ETHNIC_STUDIES = "1344";
+	public static final String OTHER_SOCIAL_STUDIES_SOCIAL_SCIENCES = "1345";
+	public static final String BASIC_SKILLS_OR_REMEDIAL_EDUCATION = "1346";
+	public static final String BILINGUAL_EDUCATION = "0251";
+	public static final String ENGLISH_AS_A_SECOND_LANGUAGE = "0256";
+	public static final String GIFTED_AND_TALENTED = "2381";
+	public static final String MILITARY_SCIENCE = "0557";
+	public static final String PHYSICAL_EDUCATION = "0559";
+	public static final String SPECIAL_EDUCATION = "2043";
+	public static final String AUTISM = "1348";
+	public static final String DEAF_AND_HARD_OF_HEARING = "1349";
+	public static final String DEVELOPMENTALLY_DELAYED = "1350";
+	public static final String EARLY_CHILDHOOD_SPECIAL_EDUCATION = "1351";
+	public static final String EMOTIONALLY_DISTURBED_OR_BEHAVIOR_DISORDERS = "1352";
+	public static final String LEARNING_DISABILITIES = "1353";
+	public static final String MENTALLY_DISABLED = "1354";
+	public static final String MILDLY_MODERATELY_DISABLED = "1355";
+	public static final String ORTHOPEDICALLY_IMPAIRED = "1356";
+	public static final String SPEECH_LANGUAGE_IMPAIRED = "1358";
+	public static final String TRAUMATICALLY_BRAIN_INJURED = "1359";
+	public static final String VISUALLY_IMPAIRED = "1360";
+	public static final String OTHER_SPECIAL_EDUCATION = "1361";
+	public static final String AGRICULTURE_OR_NATURAL_RESOURCES = "1362";
+	public static final String BUSINESS_OFFICE = "1363";
+	public static final String CAREER_EDUCATION = "1364";
+	public static final String COMMUNICATIONS_TECHNOLOGIES = "1153";
+	public static final String COSMETOLOGY = "1366";
+	public static final String FAMILY_AND_CONSUMER_SCIENCE = "1367";
+	public static final String FOOD_SERVICES = "1368";
+	public static final String HEALTH_PROFESSIONS_AND_OCCUPATIONS = "1369";
+	public static final String TRADES_AND_INDUSTRY = "1370";
+	public static final String OTHER_VOCATIONAL_TECHNICAL_EDUCATION = "1371";
+	public static final String OTHER = "9999";
+}

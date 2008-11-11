@@ -1,0 +1,23 @@
+2008-08-22 
+	* Added StudentContact object support
+2008-07-24 
+	* Added the new SIFAgent micro-framework:
+		- Fully automated subscription and provision
+		- Automatic notification of new incoming messages
+		- Simpler configuration via a cleaned up agent.properties infrastructure
+		- Support for running multiple SIF agents in the same JVM
+	* First release of our new Uva ZIS supporting the following operations:
+		- acks
+		- provision requests
+		- subscription requests
+		- object requests
+		- registration 
+		- system control events
+	  It is important to note that this ZIS is all in-memory and it is intended
+	  to make developing with Uva Core even easier
+	* Support for HTTP authentication including basic/digest/ntlm 
+	* New event dispatch logic  (EventSink) making the entire framework more consistent 
+	* Many bug fixes
+	* Improved SIFResponse.getObjectData (be aware that it might break some apps) 
+	
+	

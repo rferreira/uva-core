@@ -1,0 +1,90 @@
+package com.uvasoftware.core.data.code;
+
+/**
+ * Represents the list of <code>[0229] Program Type</code> codes defined in the SIF spec
+ * 
+ * @author Uva Software - http://uvasoftware.com
+ */
+public class ProgramType0229 {
+	public static final String REGULAR_EDUCATION = "0100";
+	public static final String SPECIAL_EDUCATION_SERVICES = "0200";
+	public static final String EARLY_IDENTIFICATION = "0201";
+	public static final String EARLY_INTERVENTION = "0202";
+	public static final String SERVICE_FOR_INDIVIDUALS_WITH_AUTISM = "0203";
+	public static final String SERVICE_FOR_INDIVIDUALS_WITH_DEAF_BLINDNESS = "0204";
+	public static final String SERVICE_FOR_INDIVIDUALS_WITH_MENTAL_RETARDATION = "0205";
+	public static final String SERVICE_FOR_INDIVIDUALS_WITH_HEARING_IMPAIRMENT = "0206";
+	public static final String SERVICE_FOR_INDIVIDUALS_WITH_VISUAL_IMPAIRMENT = "0207";
+	public static final String SERVICE_FOR_INDIVIDUALS_WITH_ORTHOPEDIC_IMPAIRMENT = "0208";
+	public static final String SERVICE_FOR_INDIVIDUALS_WITH_SPEECH_OR_LANGUAGE_IMPAIRMENT = "0209";
+	public static final String SERVICE_FOR_INDIVIDUALS_WITH_SERIOUS_EMOTIONAL_DISTURBANCE = "0210";
+	public static final String SERVICE_FOR_INDIVIDUALS_WITH_SPECIFIC_LEARNING_DISABILITIES = "0211";
+	public static final String SERVICE_FOR_INDIVIDUALS_WITH_MULTIPLE_DISABILITIES = "0212";
+	public static final String SERVICE_FOR_INDIVIDUALS_WITH_TRAUMATIC_BRAIN_INJURY = "0213";
+	public static final String PSYCHOLOGICAL_SERVICE = "0214";
+	public static final String CROSS_CATEGORICAL = "0215";
+	public static final String SERVICE_FOR_INDIVIDUALS_WITH_DEVELOPMENTAL_DELAY = "0216";
+	public static final String OTHER_SPECIAL_ED = "0299";
+	public static final String VOCATIONAL_EDUCATION = "0300";
+	public static final String AGRICULTURE = "0301";
+	public static final String CONSUMER_AND_HOME_MAKING = "0302";
+	public static final String MARKETING = "0303";
+	public static final String HEALTH = "0304";
+	public static final String TECHNOLOGY_INDUSTRIAL_ARTS = "0305";
+	public static final String OCCUPATIONAL_HOME_ECONOMICS = "0306";
+	public static final String BUSINESS = "0307";
+	public static final String TECHNICAL = "0308";
+	public static final String TRADE_AND_INDUSTRIAL = "0309";
+	public static final String OTHER_VOCATIONAL_EDUCATION = "0399";
+	public static final String TECHNICAL_PREPARATORY = "0400";
+	public static final String HEAD_START = "0500";
+	public static final String EVEN_START = "0600";
+	public static final String MIGRANT_EDUCATION = "0700";
+	public static final String INDIAN_EDUCATION = "0800";
+	public static final String COMPENSATORY_SERVICES_FOR_DISADVANTAGED_STUDENTS = "0900";
+	public static final String BILINGUAL_EDUCATION_PROGRAM = "1000";
+	public static final String CURRICULUM_CONTENT_IN_NATIVE_LANGUAGE = "1001";
+	public static final String DEVELOPMENTAL_BILINGUAL_EDUCATION = "1002";
+	public static final String NATIVE_LANGUAGE_SUPPORT = "1003";
+	public static final String TWO_WAY_BILINGUAL_EDUCATION = "1004";
+	public static final String ENGLISH_AS_A_SECOND_LANGUAGE_PROGRAM = "1100";
+	public static final String CONTENT_ESL = "1101";
+	public static final String GIFTED_AND_TALENTED = "1200";
+	public static final String COCURRICULAR_PROGRAMS = "1300";
+	public static final String ATHLETICS = "1400";
+	public static final String ADULT_CONTINUING_EDUCATION = "1500";
+	public static final String ADULT_BASIC_EDUCATION = "1501";
+	public static final String ADULT_ENGLISH_AS_A_SECOND_LANGUAGE = "1502";
+	public static final String ADVANCED_ADULT_BASIC_EDUCATION = "1503";
+	public static final String LIFE_ENRICHMENT = "1504";
+	public static final String OCCUPATIONAL = "1505";
+	public static final String RETRAINING_FOR_NEW_OCCUPATION = "1506";
+	public static final String SPECIAL_INTEREST = "1507";
+	public static final String UPGRADING_IN_CURRENT_OCCUPATION = "1508";
+	public static final String GENERAL_EDUCATIONAL_DEVELOPMENT_PREPARATION = "1509";
+	public static final String OTHER_ADULT_CONTINUING_EDUCATION = "1599";
+	public static final String COMMUNITY_JUNIOR_COLLEGE_EDUCATION_PROGRAM = "1600";
+	public static final String COMMUNITY_SERVICES_PROGRAM = "1700";
+	public static final String CIVIC_SERVICES = "1701";
+	public static final String COMMUNITY_RECREATION = "1702";
+	public static final String COORDINATION_OF_CASEWORK = "1703";
+	public static final String CUSTODY_AND_CHILD_CARE_SERVICES = "1704";
+	public static final String PUBLIC_LIBRARY_SERVICES = "1705";
+	public static final String WELFARE_ACTIVITIES = "1706";
+	public static final String OTHER_COMMUNITY_SERVICES = "1799";
+	public static final String SUBSTANCE_ABUSE_EDUCATION_PREVENTION = "1800";
+	public static final String STUDENT_RETENTION = "1900";
+	public static final String EXTENDED_DAY_CHILD_CARE_SERVICES = "2000";
+	public static final String COUNSELING_SERVICES = "2100";
+	public static final String IMMIGRANT_EDUCATION = "2200";
+	public static final String COLLEGE_PREPARATORY = "2300";
+	public static final String INTERNATIONAL_BACCALAUREATE = "2400";
+	public static final String MAGNET_SPECIAL_PROGRAM_EMPHASIS = "2500";
+	public static final String ALTERNATIVE_EDUCATION = "2600";
+	public static final String LIBRARY_MEDIA_SERVICES = "2700";
+	public static final String HEALTH_SERVICES = "2800";
+	public static final String REMEDIAL_EDUCATION = "2900";
+	public static final String SCHOOL_TO_WORK_OPPORTUNITIES = "3000";
+	public static final String SERVICE_LEARNING = "3100";
+	public static final String OTHER = "9999";
+}

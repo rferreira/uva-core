@@ -1,0 +1,18 @@
+<SIF_Message xmlns="http://www.sifinfo.org/infrastructure/1.x" Version="1.5r1">
+   <SIF_Register>
+      <SIF_Header>
+         <SIF_MsgId>14BA09653261545A31905937B265CE01</SIF_MsgId>
+         <SIF_Date>19990218</SIF_Date>
+         <SIF_Time Zone="UTC-08:00">20:39:12</SIF_Time>
+         <SIF_SourceId>RamseySIS</SIF_SourceId>
+      </SIF_Header>
+      <SIF_Name>Ramsey Administration Office</SIF_Name>
+      <SIF_Version>1.5r1</SIF_Version>
+      <SIF_MaxBufferSize>1024000</SIF_MaxBufferSize>
+      <SIF_Mode>Push</SIF_Mode>
+      <SIF_Protocol Type="HTTPS" Secure="Yes">
+         <SIF_URL>https://RamseyNT:8030/StudentAdmin</SIF_URL>
+      </SIF_Protocol>
+   </SIF_Register>
+</SIF_Message>
+

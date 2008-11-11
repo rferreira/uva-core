@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="build" name="FileAgent">
+
+	<path id="classpath">
+		<fileset dir="../../lib/" includes="**/*.jar" />
+		<fileset dir="../../jar/" includes="**/*.jar" />
+		<pathelement location="."/>
+	</path>
+	
+	<!-- CLEAN TARGET -->
+	<target name="clean">
+		<delete>
+			<fileset dir="." includes="*.class" />
+			<fileset dir="." includes="*.log" />
+		</delete>
+	</target>
+
+	<!-- BUILD TARGET -->
+	<target name="build">
+		<echo message="${ant.project.name}: ${ant.file}" />
+		<javac debug="true">
+			<src path="." />
+			<classpath refid="classpath" />
+		</javac>	
+	
+	</target>
+
+	<target name="run" depends="build">
+		<java classname="FileAgent" fork="true">
+		<!-- 
+		<sysproperty key="uva.log.level" value="DEBUG"/> 
+		<sysproperty key="http.proxyHost" value="localhost"/>  
+		<sysproperty key="http.proxyPort" value="8090"/>  
+		-->
+	       <classpath refid="classpath"/>
+		</java>
+	</target>
+</project>

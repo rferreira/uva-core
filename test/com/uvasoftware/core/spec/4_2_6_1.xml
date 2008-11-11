@@ -1,0 +1,17 @@
+
+<SIF_Message xmlns="http://www.sifinfo.org/infrastructure/1.x" Version="1.5r1">
+   <SIF_Response>
+      <SIF_Header>…</SIF_Header>
+      <SIF_RequestMsgId>FE1078BA3261545A31905937B265CE01</SIF_RequestMsgId>
+      <SIF_PacketNumber>1</SIF_PacketNumber>
+      <SIF_MorePackets>No</SIF_MorePackets>
+      <SIF_ObjectData>
+         <StudentPersonal RefId="E3E34B359D75101A8C3D00AA00184753">
+            <Name Type="01">
+               <LastName>Johnson</LastName>
+               <FirstName>Alicia</FirstName>
+            </Name>
+         </StudentPersonal>
+      </SIF_ObjectData>
+   </SIF_Response>
+</SIF_Message

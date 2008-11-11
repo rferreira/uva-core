@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="build" name="ReportAgent">
+
+	<path id="classpath">
+		<fileset dir="../../lib/" includes="**/*.jar" />
+		<fileset dir="../../jar/" includes="**/*.jar" />
+		<pathelement location="."/>
+	</path>
+	
+	<!-- CLEAN TARGET -->
+	<target name="clean">
+		<delete>
+			<fileset dir="." includes="*.class" />
+			<fileset dir="." includes="*.log" />
+		</delete>
+	</target>
+
+	<!-- BUILD TARGET -->
+	<target name="build">
+		<echo message="${ant.project.name}: ${ant.file}" />
+		<javac debug="true">
+			<src path="." />
+			<classpath refid="classpath" />
+		</javac>	
+	
+	</target>
+
+	<!-- RUNNING BENCHMARKS -->
+	<target name="run" depends="build">
+		
+		<java classname="ReportAgent" fork="true">
+	       		<classpath refid="classpath"/>
+			<sysproperty key="uva.log.level" value="DEBUG"/>
+		</java>
+	</target>
+</project>

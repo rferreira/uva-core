@@ -1,0 +1,45 @@
+Uva Software, LLC  - Open Educational Middleware
+
+Uva Core is a toolkit to help you develop applications using the Schools Interoperability Framework (SIF). You can find out more about SIF here: www.sifinfo.org
+
+Using it:
+---------
+
+All you need to build you own application using Uva Core is its main library file found under jar/uva-core.jar as well as all of its dependencies under lib/*
+
+Building it:
+------------
+
+In order to build Uva Core you will need:
+	
+	- Ant (from the apache foundation)
+	- JDK 1.5 or later
+
+Just type "ant" in the root directory and the main jar will be built
+
+
+The directories contain sample agents that you can use as the base for the development of your own products. 
+
+How to build/run the examples:
+-----------------------------
+
+All the examples are meant to be compiled from inside the uva core source structure since they reference shared libraries in lib/ as well as uva-core.jar itself. 
+
+Running the example is really simple, just cd in the example agent you want and type: ant run 
+
+Directory Structure: 
+--------------------
+.
+|-- benchmark 	// sample benchmark code
+|-- bin 	// location of the uva-cli command line tool
+|-- examples	// list of examples of agents built using uva-core 
+|-- lib		// dependency jars needed by uva-core
+|-- src		// source code for the library
+`-- test	// source code of the unit tests (junit)
+
+Questions?
+---------
+Read the documentation http://www.uvasoftware.com/wiki/Documentation
+Join our mailing list  http://groups.google.com/group/uva-core
+
+

@@ -1,0 +1,91 @@
+package com.uvasoftware.core.data.code;
+
+/**
+ * Represents the list of <code>[641] Status Reason Code [Subset]</code> codes defined in the SIF spec
+ * 
+ * @author Uva Software - http://uvasoftware.com
+ */
+public class StatusReason641 {
+	public static final String NOTICE_OF_TERM_ENROLLMENT = "053";
+	public static final String TERM_GRADE_REPORT = "054";
+	public static final String ABNORMAL_HEALTH_SCREENING = "ABN";
+	public static final String DID_NOT_COMPLETE_SECONDARY_SCHOOL = "B17";
+	public static final String STANDARD_HIGH_SCHOOL_DIPLOMA = "B18";
+	public static final String ADVANCED_OR_HONORS_DIPLOMA = "B19";
+	public static final String VOCATIONAL_DIPLOMA = "B20";
+	public static final String SPECIAL_EDUCATION_DIPLOMA = "B21";
+	public static final String CERTIFICATE_OF_COMPLETION_OR_ATTENDANCE = "B22";
+	public static final String SPECIAL_CERTIFICATE_OF_COMPLETION = "B23";
+	public static final String GENERAL_EDUCATION_DEVELOPMENT_DIPLOMA = "B24";
+	public static final String OTHER_HIGH_SCHOOL_EQUIVALENCY_DIPLOMA = "B25";
+	public static final String INTERNATIONAL_DIPLOMA_OR_CERTIFICATE = "B26";
+	public static final String STUDENT_IS_ELIGIBLE_TO_CONTINUE_OR_RETURN_OR_BOTH = "B27";
+	public static final String STUDENT_IS_ON_SUSPENSION_OR_DISMISSAL = "B28";
+	public static final String STUDENT_IS_EXPELLED = "B29";
+	public static final String CURRENTLY_ENROLLED_BUT_COURSES_IN_PROGRESS_ARE_NOT_INCLUDED = "B30";
+	public static final String NOT_CURRENTLY_ENROLLED = "B31";
+	public static final String PREVIOUS_ENROLLMENT = "B32";
+	public static final String UNREPORTED = "B33";
+	public static final String CURRENTLY_ENROLLED_AND_COURSES_IN_PROGRESS_ARE_INCLUDED = "B34";
+	public static final String HIGHEST_HONORS = "B35";
+	public static final String SECOND_HIGHEST_HONORS = "B36";
+	public static final String THIRD_HIGHEST_HONORS = "B37";
+	public static final String DROPPED = "B38";
+	public static final String PROBATION = "B39";
+	public static final String SUSPENDED = "B40";
+	public static final String PART_OF_THE_REQUESTED_RECORD_IS_BEING_SENT = "B44";
+	public static final String RECORD_BEING_SENT_AT_REQUEST_OF_STUDENT = "B48";
+	public static final String RECORD_BEING_SENT_TO_REPLACE_ONE_PREVIOUSLY_SENT = "B49";
+	public static final String REQUESTED_RECORD_BEING_SENT = "B50";
+	public static final String STUDENT_ON_SUSPENSION_OR_DISMISSAL = "B51";
+	public static final String DROPOUT = "B52";
+	public static final String STUDENT_QUALIFIES_FOR_SPECIAL_SERVICES = "B53";
+	public static final String COURT_PROBATION = "C19";
+	public static final String STUDENT_HAS_ATTENDED_A_NON_PUBLIC_SCHOOL_OR_HOME_SCHOOL_AND_IS_ENTERING_A_PUBLIC_SCHOOL_IN_THIS_STATE_FOR_THE_FIRST_TIME_THIS_SCHOOL_YEAR = "D03";
+	public static final String STUDENT_WAS_RECEIVED_FROM_ANOTHER_ATTENDANCE_REPORTING_UNIT_IN_THE_SAME_SCHOOL = "D04";
+	public static final String STUDENT_WAS_RECEIVED_FROM_A_SCHOOL_IN_THE_SAME_DISTRICT = "D05";
+	public static final String STUDENT_WAS_RECEIVED_FROM_ANOTHER_PUBLIC_SCHOOL_OUTSIDE_THE_DISTRICT = "D06";
+	public static final String STUDENT_WAS_RECEIVED_FROM_A_NON_PUBLIC_SCHOOL_BUT_PREVIOUSLY_ENROLLED_IN_A_PUBLIC_SCHOOL_THIS_YEAR = "D07";
+	public static final String STUDENT_UNEXPECTEDLY_REENTERED_THE_SAME_SCHOOL_AFTER_WITHDRAWING_OR_BEING_DISCHARGED = "D08";
+	public static final String STUDENT_WAS_EXPECTED_TO_ATTEND_A_SCHOOL_BUT_DID_NOT_ENTER_AS_EXPECTED_FOR_UNKNOWN_REASONS = "D09";
+	public static final String STUDENT_WAS_PROMOTED__RETAINED__OR_TRANSFERRED_TO_ANOTHER_ATTENDANCE_REPORTING_UNIT_IN_THE_SAME_SCHOOL = "D10";
+	public static final String STUDENT_WAS_PROMOTED__RETAINED__OR_TRANSFERRED_TO_ANOTHER_SCHOOL_IN_THE_SAME_DISTRICT = "D11";
+	public static final String STUDENT_WITHDREW_TO_ATTEND_ANOTHER_PUBLIC_SCHOOL_IN_THE_SAME_DISTRICT = "D12";
+	public static final String STUDENT_WITHDREW_TO_ATTEND_ANOTHER_PUBLIC_SCHOOL = "D13";
+	public static final String STUDENT_OVER_COMPULSORY_ATTENDANCE_AGE_WHO_LEAVES_SCHOOL_VOLUNTARILY_WITH_NO_INTENTION_OF_RETURNING = "D14";
+	public static final String STUDENT_WHO_GRADUATED_FROM_SCHOOL_WITH_A_STANDARD_DIPLOMA = "D15";
+	public static final String STUDENT_WHO_GRADUATED_FROM_SCHOOL_WITH_A_SPECIAL_DIPLOMA = "D16";
+	public static final String STUDENT_WHO_LEFT_SCHOOL_WITH_A_CERTIFICATE_OF_COMPLETION = "D17";
+	public static final String STUDENT_WHO_LEFT_SCHOOL_WITH_A_SPECIAL_CERTIFICATE_OF_COMPLETION = "D18";
+	public static final String STUDENT_WHO_LEFT_SCHOOL_WITH_A_STATE_GED_HIGH_SCHOOL_DIPLOMA = "D19";
+	public static final String STUDENT_WITHDREW_TO_ATTEND_A_NON_PUBLIC_SCHOOL_OR_HOME_EDUCATION_PROGRAM = "D20";
+	public static final String STUDENT_WITHDREW_FROM_SCHOOL_DUE_TO_HARDSHIP = "D21";
+	public static final String STUDENT_HAS_NOT_ENTERED_ANY_SCHOOL_IN_THIS_OR_ANY_OTHER_STATE_THIS_SCHOOL_YEAR = "D22";
+	public static final String PREVIOUSLY_ATTENDED_OUT_OF_STATE_PUBLIC_SCHOOL_THIS_YEAR_BUT_IS_ENTERING_A_PUBLIC_SCHOOL_IN_THIS_STATE_FOR_THE_FIRST_TIME_THIS_SCHOOL_YEAR = "D23";
+	public static final String RETURNED_TO_REGULAR_EDUCATION_PROGRAM = "D24";
+	public static final String RECLASSIFIED_FULLY_ENGLISH_PROFICIENT = "D25";
+	public static final String RETAINED_IN_CURRENT_GRADE = "D26";
+	public static final String PLACED_IN_NEXT_GRADE_AFTER_EXPECTED_GRADE = "D27";
+	public static final String PLACED_IN_A_TRANSITIONAL_PROGRAM = "D28";
+	public static final String STATUS_PENDING_COMPLETION_OF_SUMMER_SCHOOL = "D29";
+	public static final String DECLINED_SERVICES = "D30";
+	public static final String ADMINISTRATIVELY_PLACED_IN_A_HIGHER_GRADE = "D31";
+	public static final String ACADEMICALLY_PLACED_IN_A_HIGHER_GRADE = "D32";
+	public static final String PROMOTION_STATUS_NOT_APPLICABLE = "D33";
+	public static final String PROMOTED = "D34";
+	public static final String GRADUATE_FROM_A_COLLEGE = "D53";
+	public static final String TRANSFER_FROM_A_UNIVERSITY_PROGRAM = "D54";
+	public static final String GRADUATE_FROM_A_UNIVERSITY_PROGRAM = "D55";
+	public static final String EXCHANGE_STUDENT = "D56";
+	public static final String RETURNING_STUDENT_ADMITTED_TO_A_NEW_PROGRAM = "D57";
+	public static final String RETURNING_STUDENT_ADMITTED_TO_THE_SAME_PROGRAM = "D58";
+	public static final String RETURNING_OR_CONTINUING_STUDENT_CHANGING_TO_UNCLASSIFIED_OR_GENERAL_OR_UNSPECIFIED_STUDIES = "D59";
+	public static final String CONTINUING_STUDENT_CHANGING_TO_A_NEW_PROGRAM = "D60";
+	public static final String SPECIAL_PERMISSION = "D61";
+	public static final String GRADUATE_FROM_A_TECHNICAL_INSTITUTE = "D62";
+	public static final String TRANSFER_FROM_A_COLLEGE = "D63";
+	public static final String DECEASED = "EB1";
+	public static final String WITHDRAWN = "EB3";
+	public static final String GRADUATED = "EB4";
+	public static final String NORMAL_HEALTH_SCREENING = "NOR";
+}

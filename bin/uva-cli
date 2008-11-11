@@ -1,0 +1,16 @@
+#!/bin/bash
+
+cd ..
+BASE=$(pwd)
+CLASSPATH=$BASE/jar/uva-core.jar
+for i in `ls lib`
+do 
+	CLASSPATH=$CLASSPATH:$BASE/lib/$i
+done
+
+cd $BASE/bin
+#echo using classpath: $CLASSPATH
+java -Duva.core.debugSIF=true -cp $CLASSPATH com.uvasoftware.core.cli.CLI   "$@"
+
+# use below for debug output
+# java -Duva.core.debugSIF=true -Duva.log.level=DEBUG -cp $CLASSPATH com.uvasoftware.core.cli.CLI   "$@"

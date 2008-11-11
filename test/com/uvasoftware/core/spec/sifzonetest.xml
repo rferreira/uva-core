@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SIF_Message xmlns="http://www.sifinfo.org/infrastructure/1.x" Version="1.5r1">
+    <SIF_Ack>
+        <SIF_Header>
+            <SIF_MsgId>00000115F997B7CF007F000000010001</SIF_MsgId>
+            <SIF_Date>20071031</SIF_Date>
+            <SIF_Time Zone="UTC+07:00">22:03:30</SIF_Time>
+            <SIF_SourceId>TinyZIS</SIF_SourceId>
+        </SIF_Header>
+        <SIF_OriginalSourceId>Uva Software - Uva Core</SIF_OriginalSourceId>
+        <SIF_OriginalMsgId>B3253B2F9AFC4FABB0E21B17DC3328DB</SIF_OriginalMsgId>
+        <SIF_Status>
+            <SIF_Code>0</SIF_Code>
+            <SIF_Data>
+                <SIF_Message Version="1.5r1">
+                    <SIF_Response>
+                        <SIF_Header>
+                            <SIF_MsgId>00000115F996EE8E007F000000010001</SIF_MsgId>
+                            <SIF_Date>20071031</SIF_Date>
+                            <SIF_Time Zone="UTC+07:00">22:02:39</SIF_Time>
+                            <SIF_SourceId>TinyZIS</SIF_SourceId>
+                        </SIF_Header>
+                        <SIF_RequestMsgId>6F01FEDF7E224A84B62D0115D408C6C6</SIF_RequestMsgId>
+                        <SIF_PacketNumber>1</SIF_PacketNumber>
+                        <SIF_MorePackets>No</SIF_MorePackets>
+                        <SIF_ObjectData>
+                            <SIF_ZoneStatus ZoneId="TinyZIS">
+<SIF_Providers>
+    <SIF_Provider SourceId="Uva Software - Uva Core"/>
+</SIF_Providers>
+<SIF_Subscribers>
+    <SIF_Subscriber SourceId="Uva Software - Uva Core"/>
+</SIF_Subscribers>
+<SIF_SupportedProtocols>
+    <SIF_Protocol Type="HTTPS" Secure="Yes">
+        <SIF_URL>http://172.20.20.3:8443/</SIF_URL>
+    </SIF_Protocol>
+</SIF_SupportedProtocols>
+                            </SIF_ZoneStatus>
+                        </SIF_ObjectData>
+                    </SIF_Response>
+                </SIF_Message></SIF_Data>
+        </SIF_Status>
+    </SIF_Ack>
+</SIF_Message>

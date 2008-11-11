@@ -1,0 +1,25 @@
+ou v<SIF_Message xmlns="http://www.sifinfo.org/infrastructure/1.x" Version="1.5r1">
+   <SIF_Request>
+      <SIF_Header>
+         <SIF_MsgId>A3E90785EFDA330DACB00785EFDA330D</SIF_MsgId>
+         <SIF_Date>19990218</SIF_Date>
+         <SIF_Time Zone="UTC-08:00">20:39:12</SIF_Time>
+         <SIF_SourceId>RamseyLIB</SIF_SourceId>
+      </SIF_Header>
+      <SIF_Version>1.5r1</SIF_Version>
+      <SIF_MaxBufferSize>1048576</SIF_MaxBufferSize>
+      <SIF_Query>
+         <SIF_QueryObject ObjectName="StudentPersonal"/>
+         <SIF_ConditionGroup Type="None">
+            <SIF_Conditions Type="None">
+               <SIF_Condition>
+                   <SIF_Element>Name/LastName</SIF_Element>
+                   <SIF_Operator>EQ</SIF_Operator>
+                   <SIF_Value>Smith</SIF_Value>
+               </SIF_Condition>
+            </SIF_Conditions>
+      </SIF_ConditionGroup>
+      </SIF_Query>
+   </SIF_Request>
+</SIF_Message>
+
